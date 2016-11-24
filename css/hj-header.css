@@ -1,0 +1,12 @@
+#fixed-header {
+    background-color: #a8a8aa;
+}
+#hj-header-list {
+
+}
+
+.hj-header-item {
+    display: inline-block;
+    position: relative;
+    height: 44px;
+}
