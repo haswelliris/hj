@@ -1,5 +1,5 @@
 #fixed-header {
-    background-color: #a8a8aa;
+    background-color: #8c8c8e;
 }
 #hj-header-list {
 
@@ -9,4 +9,23 @@
     display: inline-block;
     position: relative;
     height: 44px;
+}
+
+.nav>li>a {
+    color: white;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+    color: grey;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
 }
